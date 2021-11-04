@@ -1,0 +1,14 @@
+$TTL 604800
+0.8.10.in-addr.arpa. IN SOA ns1.basist37.local. brin.basist37.local. (
+99115 ; serial
+3h ; renew period
+1h ; retry
+1w ; expire
+1h ) ; denial cache;
+0.8.10.in-addr.arpa. IN NS ns1.basist37.local.
+0.8.10.in-addr.arpa. IN NS ns2.basist37.local.
+6.0.8.10.in-addr.arpa. IN PTR basist37.local.
+6.0.8.10.in-addr.arpa. IN PTR mail.basist37.local.
+1.0.8.10.in-addr.arpa. IN PTR srv1.basist37.local.
+6.0.8.10.in-addr.arpa. IN PTR srv2.basist37.local.
+14.0.8.10.in-addr.arpa. IN PTR srv3.basist37.local.

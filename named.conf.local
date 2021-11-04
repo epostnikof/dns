@@ -6,7 +6,12 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "basist37.pp.ua" {
+zone "basist37.local" {
 type master;
 file "/etc/bind/myzones/basist37/basist37.db";
+};
+zone "0.8.10.in-addr.arpa"
+{
+type master;
+file "/etc/bind/myzones/basist37/reverse.db";
 };

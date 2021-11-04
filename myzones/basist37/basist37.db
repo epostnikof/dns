@@ -1,18 +1,18 @@
 $TTL 30m
-@ IN SOA ns1.basist37.pp.ua. brin.basist37.pp.ua. (
+@ IN SOA ns1.basist37.local. brin.basist37.local. (
 1 ; serial
 5h ; renew period
 5m ; retry
 1w ; expire
 30m ); denial cache;
-@ IN NS ns1.basist37.pp.ua.
-@ IN NS ns2.basist37.pp.ua.
+@ IN NS ns1.basist37.local.
+@ IN NS ns2.basist37.local.
 
-basist37.pp.ua. IN MX 20 mail.basist37.pp.ua.
-basist37.pp.ua. IN A 10.8.0.6 
+basist37.local. IN MX 20 mail.basist37.local.
+basist37.local. IN A 10.8.0.6 
 ns1 IN A 10.8.0.6
 ns2 IN A 10.8.0.6
-www IN CNAME basist37.pp.ua.
+www IN CNAME basist37.local.
 mail IN A 10.8.0.6
 srv1 IN A 10.8.0.1
 srv2 IN A 10.8.0.6
