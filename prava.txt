@@ -1,0 +1,19 @@
+total 68
+drwxrwxr-x 3 ubuntu ubuntu 4096 Nov  4 10:34 ./
+drwxr-xr-x 9 ubuntu ubuntu 4096 Nov  4 10:33 ../
+drwxrwxr-x 8 ubuntu ubuntu 4096 Nov  4 10:30 .git/
+-rw-rw-r-- 1 ubuntu ubuntu   16 Nov  4 10:33 .gitignore
+-rw-rw-r-- 1 ubuntu ubuntu   12 Nov  4 10:30 README.md
+-rw-r--r-- 1 root   root   1991 Oct 27 11:00 bind.keys
+-rw-r--r-- 1 root   root    237 Dec 17  2019 db.0
+-rw-r--r-- 1 root   root    271 Dec 17  2019 db.127
+-rw-r--r-- 1 root   root    237 Dec 17  2019 db.255
+-rw-r--r-- 1 root   root    353 Dec 17  2019 db.empty
+-rw-r--r-- 1 root   root    270 Dec 17  2019 db.local
+-rw-r--r-- 1 root   bind    463 Dec 17  2019 named.conf
+-rw-r--r-- 1 root   bind    498 Dec 17  2019 named.conf.default-zones
+-rw-r--r-- 1 root   bind    165 Dec 17  2019 named.conf.local
+-rw-r--r-- 1 root   bind    846 Dec 17  2019 named.conf.options
+-rw-rw-r-- 1 ubuntu ubuntu    0 Nov  4 10:34 prava.txt
+-rw-r----- 1 bind   bind    100 Nov  4 10:29 rndc.key
+-rw-r--r-- 1 root   root   1317 Dec 17  2019 zones.rfc1918
