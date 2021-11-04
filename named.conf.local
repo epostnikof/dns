@@ -6,3 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "basist37.pp.ua" {
+type master;
+file "/etc/bind/myzones/basist37/basist37.db";
+};
