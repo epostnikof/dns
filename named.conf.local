@@ -15,3 +15,13 @@ zone "0.8.10.in-addr.arpa"
 type master;
 file "/etc/bind/myzones/basist37/reverse.db";
 };
+
+zone "basist37.pp.ua" {
+type master;
+file "/etc/bind/myzones/basist37.pp.ua/basist37.db";
+};
+
+zone "165.43.193.130.in-addr.arpa" {
+type master;
+file "/etc/bind/myzones/basist37.pp.ua/reverse.db";
+};

@@ -1,0 +1,11 @@
+$TTL 604800
+165.43.193.130.in-addr.arpa. IN SOA ns1.basist37.pp.ua. brin.basist37.pp.ua. (
+99115 ; serial
+3h ; renew period
+1h ; retry
+1w ; expire
+1h ) ; denial cache;
+165.43.193.130.in-addr.arpa. IN NS ns1.basist37.pp.ua.
+165.43.193.130.in-addr.arpa. IN NS ns2.basist37.pp.ua.
+165.43.193.130.in-addr.arpa. IN PTR basist37.pp.ua.
+165.43.193.130.in-addr.arpa. IN PTR mail.basist37.pp.ua.
